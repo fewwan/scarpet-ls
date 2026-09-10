@@ -28,8 +28,11 @@
     "typescript": "^5.3.3"
   },
   "dependencies": {
-    "scarpet-parser": "github:FedericoCarboni/scarpet-parser",
+    "scarpet-parser": "github:fewwan/scarpet-parser",
     "vscode-languageserver": "^9.0.1",
     "vscode-languageserver-textdocument": "^1.0.11"
+  },
+  "allowScripts": {
+    "esbuild@0.20.2": true
   }
 }
